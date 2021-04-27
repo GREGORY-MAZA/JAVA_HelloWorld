@@ -21,6 +21,7 @@ public class Demenagement {
 			
 		}if (cartonsAncienLocal == 0) {
 			cartonsNouveauLocal += cartonsCamion;
+			cartonsCamion =0;
 			System.out.println("Livraison de " +cartonsCamion+ " cartons restant");
 			System.out.println("Le nouveau local est en bordel avec les " +cartonsNouveauLocal+ " cartons");
 		}
